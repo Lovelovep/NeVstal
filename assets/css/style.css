@@ -1,0 +1,174 @@
+
+.mainVideo {
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+.mainOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainOne, .mainTwo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+    height: 98vh;
+}
+   .mainTwo a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    background-color: white;
+    width: 350px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all 0.3s ease-out;
+}
+.mainTwo a:hover{
+    background-color: rgb(78, 78, 78);
+    color: white;
+}
+.mainTwo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.747)),url(../img/S600xU_2x.webp);
+    background-size: cover;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40vh ;
+}
+.mainTwo h1{
+    background-color: rgb(218, 218, 218);
+    font-size: 100px;
+    border-radius: 30px;
+    width: 500px;
+    color: rgb(65, 65, 65);
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.mainThree{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.432)),url(../img/image.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+}
+.mainThree .block{
+    background-color:  rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 800px;
+    height: 50vh;
+    border-radius: 30px;
+}
+.carousel{
+    width: 400px;
+}
+.block h1{
+    font-size: 150px;
+}
+.block p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.mainbox{
+    background-color: rgba(32, 32, 32, 0.815);
+    width: 900px;
+    border-radius: 100px;
+    max-height: 850px;
+    min-height: 849px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+.mainOne video{
+    filter: brightness(30%);
+}
+.nevstal{
+    width: 450px;
+    filter: invert();
+}
+.test{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.cardplay{
+    width: 400px;
+    height: 90px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    gap: 30px;
+    align-items: center; 
+    font-size: 20px;
+    padding-inline: 30px;
+    transition: all 0.3s ease-out;
+}
+
+.avatar{
+    border-radius: 5px;
+    width: 60px; 
+    height: 60px;
+    margin: 20px;
+}
+
+img{
+    transition: all 0.3s ease-out;
+}
+
+.cardplay:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 150px;
+    font-size: 25px;
+}
+.cardplay:hover img{
+    width: 100px;
+    height: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 100px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    box-shadow: 10px 01px 10px rgb(0, 0, 0) inset;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgb(255, 255, 255) inset;
+}
