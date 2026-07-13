@@ -25,7 +25,7 @@
     align-items: flex-end;  
     height: 98vh;
 }
-   .mainTwo a{
+   .mainTwo a, .nicebtn{
     text-decoration: none;
     color: black;
     margin-bottom: 50px;
@@ -39,7 +39,7 @@
     font-size: 20px;
     transition: all 0.3s ease-out;
 }
-.mainTwo a:hover{
+.mainTwo a:hover , .nicebtn:hover{
     background-color: rgb(78, 78, 78);
     color: white;
 }
@@ -171,4 +171,11 @@ img{
 ::-webkit-scrollbar-thumb{
     border-radius: 10px;
     box-shadow: 5px 5px 30px rgb(255, 255, 255) inset;
+}
+.bagblack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: black;
 }
